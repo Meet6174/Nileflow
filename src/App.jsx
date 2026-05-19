@@ -21,10 +21,10 @@ function App() {
   const handleOrder = () => {
     if (cart.length === 0) return;
 
-    const businessName = "Maulik Desai Pump Solutions";
+    const businessName = "Nileflow Pump Solutions";
     const phone = "918141825092";
     
-    let message = `Hello Maulik Desai,\n\nI want to order:\n\n`;
+    let message = `Hello Nileflow,\n\nI want to order:\n\n`;
     cart.forEach((item, index) => {
       message += `${index + 1}. ${item.name}\n`;
     });
@@ -48,7 +48,7 @@ function App() {
               Trusted Supplier
             </span>
             <h1 className="text-4xl md:text-6xl font-black text-blue-900 mb-6 leading-tight">
-              Maulik Desai <br />
+              Nileflow <br />
               <span className="text-blue-600 font-extrabold">Pump Solutions</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg leading-relaxed">
@@ -115,7 +115,7 @@ function App() {
 
       <footer className="bg-gray-900 text-gray-400 py-10 text-center">
         <div className="container mx-auto px-4">
-          <p className="mb-2">© 2026 Maulik Desai Pump Solutions. All rights reserved.</p>
+          <p className="mb-2">© 2026 Nileflow Pump Solutions. All rights reserved.</p>
           <p className="text-sm">Quality Products by Dwarkesh Enterprise</p>
         </div>
       </footer>

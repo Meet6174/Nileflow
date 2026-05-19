@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-blue-700 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <span className="text-2xl font-bold tracking-tight">Maulik Desai</span>
+          <span className="text-2xl font-bold tracking-tight">Nileflow</span>
           <span className="hidden md:inline-block text-blue-200 border-l border-blue-500 pl-2">Pump Solutions</span>
         </div>
         <div className="hidden md:flex space-x-6 font-medium">

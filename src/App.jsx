@@ -49,14 +49,12 @@ function App() {
         </Routes>
       </main>
 
-      {/* Cart Section - Mobile Fixed / Desktop Sticky */}
-      <div className="lg:fixed lg:right-8 lg:bottom-8 lg:w-80 lg:z-50">
-        <Cart 
-          cartItems={cart} 
-          onRemove={removeFromCart} 
-          onOrder={handleOrder} 
-        />
-      </div>
+      {/* Cart Component - Handles its own floating button and drawer */}
+      <Cart 
+        cartItems={cart} 
+        onRemove={removeFromCart} 
+        onOrder={handleOrder} 
+      />
 
       <Contact />
 
